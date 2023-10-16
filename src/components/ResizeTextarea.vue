@@ -84,7 +84,6 @@ export default {
     styles() {
       return {
         resize: this.autoResize ? "none !important" : "",
-        padding: `5${this.unit}`,
         height: this.height,
         overflow: `${this.isScrollEnabled ? "scroll" : "hidden"} !important`,
       };
